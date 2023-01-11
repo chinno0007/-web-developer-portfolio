@@ -1,0 +1,45 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.PeterParker {
+    color: orange;
+}
+
+
+section {
+    display: flex;
+}
+
+.btn {
+    background-image: linear-gradient(orange, tomato);
+    border: none;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.btn:hover {
+    background-color: brown;
+    color: aliceblue;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 10%;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
